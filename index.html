@@ -3,31 +3,25 @@
 
 <head>
     <title>CSS 1</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body> 
     <div class="containter">
+        <div style="text-shadow: 5px 5px 5px 5px solid #fff !important;">
+            <h1>To Do List</h1>
+        </div>
         <div id="input-area" class="topInpput">
-            <input type="text" id="input" class="txDtb" placeholder="Add a task">
+            <input type="text" id="input" class="txtb" placeholder="Add a task">
             <button onclick="addItem()" class="txtb1">Add Task</button>    
         </div>
         <div class="notcomp">
-            <h3>Task List</h3>
+            <h3>Today's Tasks</h3>
             <ul id="list" class="">
 
             </ul>
-            <div class="task">
-                Task
-                <i class="fa fa-trash-alt"></i>
-                <i class="fa fa-check"></i>
-            </div>
-            <div class="task">
-                Task
-                <i class="fa fa-trash-alt"></i>
-                <i class="fa fa-check"></i>
-            </div>
         </div>
         
     </div>
