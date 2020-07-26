@@ -13,10 +13,10 @@ function addItem() {
     
     deleteButton.innerHTML = "Delete"
     deleteButton.setAttribute('onclick', 'deleteItem(event)')
-    deleteButton.setAttribute('src', 'image.png')
+    // deleteButton.setAttribute('src', 'image.png')
     // deleteButton.setAttribute('width', '20px')
     // deleteButton.setAttribute('height', '30px')
-    deleteButton.setAttribute('class', 'delete')
+    // deleteButton.setAttribute('class', 'delete')
     
     
     // deleteButton.setAttribute('class', 'fa fa-trash-alt')
@@ -32,7 +32,7 @@ function addItem() {
     // editButton.setAttribute('src', 'pencil.png')
     // editButton.setAttribute('width', '20px')
     // editButton.setAttribute('height', '30px')
-    editButton.setAttribute('class', 'edit')
+    // editButton.setAttribute('class', 'edit')
 
     // deleteButton.setAttribute('class', 'fa fa-pencil')
     listItem.appendChild(editButton)
